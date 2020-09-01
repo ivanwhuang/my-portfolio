@@ -26,6 +26,116 @@ export default function Projects() {
                             <Card.Img
                                 style={{ height: '15rem' }}
                                 variant='top'
+                                src='/smartDoor.png'
+                            />
+                            <Card.Body>
+                                <Card.Title>Smart Door</Card.Title>
+                                <Card.Text>
+                                    With the emergence of Edge Computing in IoT,
+                                    SmartDoor is a proof of concept project of
+                                    an automated attendance tracker that also
+                                    serves as a more personalized security
+                                    system. This project uses Raspberry Pis to
+                                    simulate use case.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <strong>Languages and Frameworks Used:</strong>
+                                <p>Python</p>
+                                <Button
+                                    className='project-btn'
+                                    variant='info'
+                                    href='https://github.com/woonicholas/SmartDoor'
+                                    target='_blank'
+                                >
+                                    Github Repo
+                                </Button>
+                                <Button
+                                    className='project-btn'
+                                    variant='secondary'
+                                    href='https://www.youtube.com/watch?v=QMduXOS_j_Y'
+                                    target='_blank'
+                                >
+                                    Youtube Demo
+                                </Button>
+                            </Card.Footer>
+                        </Card>
+                        <Card
+                            border='dark'
+                            style={{ width: '24rem', margin: '1rem' }}
+                        >
+                            <Card.Img
+                                style={{ height: '15rem' }}
+                                variant='top'
+                                src='/ethicScore.png'
+                            />
+                            <Card.Body>
+                                <Card.Title>
+                                    Ethic Score (Sponsored Project)
+                                </Card.Title>
+                                <Card.Text>
+                                    An embedded Shopify application that
+                                    features a composite scoring system for
+                                    products and brands found on Ethic
+                                    Marketplace that allows users to easily see
+                                    how products stack up in regard to the
+                                    things they care about.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <strong>Languages and Frameworks Used:</strong>
+                                <p>
+                                    Javascript, React, Next.js, Liquid, Node.js,
+                                    Express
+                                </p>
+                                <Button
+                                    className='project-btn'
+                                    variant='secondary'
+                                    href='https://www.youtube.com/watch?v=_k-yVTR4frA&feature=youtu.be'
+                                    target='_blank'
+                                >
+                                    Youtube Demo
+                                </Button>
+                            </Card.Footer>
+                        </Card>
+                        <Card
+                            border='dark'
+                            style={{ width: '24rem', margin: '1rem' }}
+                        >
+                            <Card.Img
+                                style={{ height: '15rem' }}
+                                variant='top'
+                                src='/amazonAlexa.jpg'
+                            />
+                            <Card.Body>
+                                <Card.Title>NextMuniAlexaSkill</Card.Title>
+                                <Card.Text>
+                                    An Amazon Alexa skill that uses NextBus API
+                                    to return a voice output of prediction times
+                                    for any given San Francisco Muni bus, stop,
+                                    and direction.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <strong>Languages and Frameworks Used:</strong>
+                                <p>Javascript</p>
+                                <Button
+                                    className='project-btn'
+                                    variant='info'
+                                    href='https://github.com/younghuangbao/NextMuniAlexaSkill'
+                                    target='_blank'
+                                >
+                                    Github Repo
+                                </Button>
+                            </Card.Footer>
+                        </Card>
+                        <Card
+                            border='dark'
+                            style={{ width: '24rem', margin: '1rem' }}
+                        >
+                            <Card.Img
+                                style={{ height: '15rem' }}
+                                variant='top'
                                 src='/prayerKeeper.png'
                             />
                             <Card.Body>
@@ -57,46 +167,6 @@ export default function Projects() {
                                     variant='secondary'
                                 >
                                     Open App
-                                </Button>
-                            </Card.Footer>
-                        </Card>
-
-                        <Card
-                            border='dark'
-                            style={{ width: '24rem', margin: '1rem' }}
-                        >
-                            <Card.Img
-                                style={{ height: '15rem' }}
-                                variant='top'
-                                src='/aniList.png'
-                            />
-                            <Card.Body>
-                                <Card.Title>AnimeStats</Card.Title>
-                                <Card.Text style={{ color: '#212529' }}>
-                                    A web app that uses information (popularity,
-                                    average scores, etc.) from AniList's API to
-                                    rank and display information on the top 10
-                                    animes on AniList.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <strong>Languages and Frameworks Used:</strong>
-                                <p>Python, HTML, CSS, Flask</p>
-                                <Button
-                                    className='project-btn'
-                                    variant='info'
-                                    href='https://github.com/airada/ZOTHACKS'
-                                    target='_blank'
-                                >
-                                    Github Repo
-                                </Button>
-                                <Button
-                                    className='project-btn'
-                                    variant='secondary'
-                                    href='https://devpost.com/software/zothacks-2018'
-                                    target='_blank'
-                                >
-                                    DevPost
                                 </Button>
                             </Card.Footer>
                         </Card>
@@ -178,33 +248,6 @@ export default function Projects() {
                                 >
                                     Github Repo
                                 </Button>
-                            </Card.Footer>
-                        </Card>
-
-                        <Card
-                            border='dark'
-                            style={{ width: '24rem', margin: '1rem' }}
-                        >
-                            <Card.Img
-                                style={{ height: '15rem' }}
-                                variant='top'
-                                src='/amazonAlexa.jpg'
-                            />
-                            <Card.Body>
-                                <Card.Title>NextBusAlexaSkill</Card.Title>
-                                <Card.Text>
-                                    An Amazon Alexa skill that will output SF
-                                    Muni predictions via Alexa’s Voice UI. This
-                                    project is currently in progress but as of
-                                    now, I have utilized NextBus API to wrote
-                                    the logic for returning the desired
-                                    prediction time for any given bus and valid
-                                    stop.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <strong>Languages and Frameworks Used:</strong>
-                                <p>Javascript</p>
                             </Card.Footer>
                         </Card>
                     </div>
