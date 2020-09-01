@@ -164,9 +164,9 @@ export default function Home() {
                                     towards the CS world, there's been less time
                                     for film and instead, I started pursuing
                                     photography. One day, I hope to be a
-                                    freelance photographer with my spare time.{' '}
+                                    freelance photographer in my spare time.{' '}
                                 </p>
-                                <Link href='/photography_film'>
+                                <Link href='/photography'>
                                     <Button
                                         className='skill-button'
                                         size='lg'
@@ -182,30 +182,6 @@ export default function Home() {
             </div>
 
             <Footer />
-
-            {/* <Footer size='mini'>
-                <FooterSection type='left'>
-                    <FooterLinkList>
-                        <Link href='/'>
-                            <a>Home</a>
-                        </Link>
-                        <Link href='/projects'>
-                            <a>Projects</a>
-                        </Link>
-                        <Link href='/photography'>
-                            <a>Photography</a>
-                        </Link>
-                        <a
-                            href='https://drive.google.com/file/d/1maNsg9Vvi-3UKPLNAUIOoJTR-M59UQQc/view?usp=sharing'
-                            rel='noopener noreferrer'
-                            target='_blank'
-                        >
-                            Resume
-                        </a>
-                    </FooterLinkList>
-                    <p>© 2019 Ivan Huang</p>
-                </FooterSection>
-            </Footer> */}
         </div>
     );
 }

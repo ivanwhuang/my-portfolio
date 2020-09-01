@@ -64,7 +64,7 @@ export default function Header() {
                         <a>Photography</a>
                     </Link>
                     <a
-                        href='https://drive.google.com/file/d/1maNsg9Vvi-3UKPLNAUIOoJTR-M59UQQc/view?usp=sharing'
+                        href='https://drive.google.com/file/d/13VeI_0WH6kP6WHnEAK6jVuFdX4hDO_kF/view?usp=sharing'
                         rel='noopener noreferrer'
                         target='_blank'
                     >

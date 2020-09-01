@@ -165,6 +165,8 @@ export default function Projects() {
                                 <Button
                                     className='project-btn'
                                     variant='secondary'
+                                    href='https://prayerkeeper.herokuapp.com/'
+                                    target='_blank'
                                 >
                                     Open App
                                 </Button>
