@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /* Navbar */
@@ -34,180 +34,178 @@
 } */
 
 .header a {
-    color: #fff;
-    padding: 0.45rem;
-    margin: 0 0.25rem;
-    text-decoration: none;
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
 }
 
 .header a:hover {
-    color: #5bc0de;
-    text-decoration: none;
+  color: #5bc0de;
+  text-decoration: none;
 }
 
 .footer p {
-    color: #fff;
-    font-size: 14px;
-    padding: 0.45rem;
-    margin: 0 0.25rem;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
 }
 
 /* Landing Page */
 
 .landing-header {
-    background: url('../public/san_francisco.jpg') no-repeat center center/cover;
-    text-align: center;
+  background: url('../public/images/san_francisco.jpg') no-repeat center
+    center/cover;
+  text-align: center;
 }
 
 .landing-intro {
-    text-align: center;
-    padding: 25px 0;
-    background-color: #f8f8f8;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #f8f8f8;
 }
 
 .landing-skill-a {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .landing-skill-b {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .content-spacer {
-    width: 250px;
-    border-top: 3px solid #e7e7e7;
+  width: 250px;
+  border-top: 3px solid #e7e7e7;
 }
 
 .projects-grid {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .landing-profile-img {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-    height: 350px;
-    border-radius: 50%;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .profile-img {
-    height: 350px;
-    border-radius: 50%;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .camera-profile-img {
-    height: 275px;
-    border-radius: 10%;
+  height: 275px;
+  border-radius: 10%;
 }
 
 .banner-text {
-    background-color: black;
-    opacity: 0.8;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .banner-text h1 {
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 5px;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
 }
 
 .banner-text hr {
-    border-top: 12px dotted white;
-    width: 15%;
-    margin: auto;
+  border-top: 12px dotted white;
+  width: 15%;
+  margin: auto;
 }
 
 .banner-text p {
-    color: white;
-    font-size: 20px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin: auto;
+  color: white;
+  font-size: 20px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: auto;
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
 }
 
 .social-links i {
-    color: white;
-    font-size: 4rem;
-    padding: 8px;
+  color: white;
+  font-size: 4rem;
+  padding: 8px;
 }
 
 /* Projects Page */
 .projects-background {
-    background: url('../public/coffeelaptop.jpg') no-repeat center center/cover;
-    height: 50vh;
+  background: url('../public/images/coffeelaptop.jpg') no-repeat center
+    center/cover;
+  height: 50vh;
 }
 
-.projects-intro {
-    padding: 25px 0;
-    background-color: #f8f8f8;
+.projects-content {
+  padding: 2rem 0;
+  background-color: #f8f8f8;
 }
 
 .project-btn {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 /* Photography Page */
 .photography-background {
-    background: url('../public/canon.jpg') no-repeat center center/cover;
-    height: 50vh;
+  background: url('../public/images/canon.jpg') no-repeat center center/cover;
+  height: 50vh;
 }
 
-.photography-content-a {
-    padding: 25px 0;
-    background-color: #f8f8f8;
-}
-
-.photography-content-b {
-    padding: 25px 0;
+.photography-content {
+  padding: 2rem 0;
+  background-color: #f8f8f8;
 }
 
 .photography-button {
-    width: 30%;
+  width: 30%;
 }
 
 .equipment-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .equipment-text ul {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* Resume Page */
 
 .resume-right-col {
-    background: #27221f;
-    color: white;
+  background: #27221f;
+  color: white;
 }
 
 @media only screen and (max-width: 1024px) {
-    .social-links {
-        width: 40%;
-    }
+  .social-links {
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .social-links {
-        width: 50%;
-    }
-    .social-links i {
-        font-size: 3rem;
-        padding: 4px;
-    }
+  .social-links {
+    width: 50%;
+  }
+  .social-links i {
+    font-size: 3rem;
+    padding: 4px;
+  }
 }
