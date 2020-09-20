@@ -31,12 +31,14 @@ export default function Projects() {
                 <Card.Title>SpotTheTrack</Card.Title>
                 <Card.Text style={{ fontSize: '14px' }}>
                   <p>
-                    An online round-based multiplayer game where each round,
+                    Inspired by the wave of online group games being released
+                    during Covid-19's quarantine season, SpotTheTrack is an
+                    online round-based multiplayer game where each round,
                     players in the same game room compete with each other to
                     guess the name of the song that is currently playing.
                   </p>
                   <p>
-                    Our app uses Spotify's web API to gather preview URLs for
+                    This app uses Spotify's web API to gather preview URLs for
                     each song.
                   </p>
                 </Card.Text>
@@ -71,12 +73,14 @@ export default function Projects() {
               <Card.Body style={{ fontSize: '14px' }}>
                 <Card.Title>PrayerKeeper</Card.Title>
                 <Card.Text>
-                  A full-stack MERN web app with token based authentication that
-                  serves as an easy platform for users to keep up with the
-                  prayer requests of others and to easily track them. Anything
-                  that you request prayer for will be publicly displayed on your
-                  profile, which can be directly added to the Keepers of other
-                  users!
+                  <p>
+                    A full-stack MERN web app with token based authentication
+                    that has served as an easy platform for a group of 30
+                    friends to keep up with each other's prayer requests.
+                    Anything that you request prayer for will be publicly
+                    displayed on your profile, which can be directly added to
+                    the Keepers of other users!
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer style={{ fontSize: '14px' }}>
