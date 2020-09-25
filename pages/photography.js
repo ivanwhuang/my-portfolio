@@ -50,7 +50,7 @@ export default function Photography() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src='/images/camera/zachtree.jpg'
+                    src='/images/camera/david.jpg'
                     alt='slide-5'
                   />
                 </Carousel.Item>
@@ -58,7 +58,7 @@ export default function Photography() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src='/images/camera/david.jpg'
+                    src='/images/camera/pizza.jpg'
                     alt='slide-6'
                   />
                 </Carousel.Item>
@@ -66,7 +66,7 @@ export default function Photography() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src='/images/camera/pizza.jpg'
+                    src='/images/camera/lobster.jpg'
                     alt='slide-7'
                   />
                 </Carousel.Item>
@@ -74,7 +74,7 @@ export default function Photography() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src='/images/camera/lobster.jpg'
+                    src='/images/camera/santamonica.jpg'
                     alt='slide-8'
                   />
                 </Carousel.Item>
@@ -82,16 +82,8 @@ export default function Photography() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src='/images/camera/santamonica.jpg'
-                    alt='slide-9'
-                  />
-                </Carousel.Item>
-
-                <Carousel.Item>
-                  <img
-                    className='d-block w-100'
                     src='/images/camera/groot.jpg'
-                    alt='slide-10'
+                    alt='slide-9'
                   />
                 </Carousel.Item>
               </Carousel>
