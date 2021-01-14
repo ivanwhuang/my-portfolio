@@ -136,6 +136,41 @@ export default function Projects() {
               <Card.Img
                 style={{ height: '15rem' }}
                 variant='top'
+                src='/images/LampLytics.png'
+              />
+              <Card.Body>
+                <Card.Title>LampLytics</Card.Title>
+                <Card.Text style={{ fontSize: '14px' }}>
+                LampLytics is a prototype of a personal desk assistant system that utilizes 
+                data from multiple sensors in order to automatically turn on a lamp and fan with just the 
+                right amount of power in order to create a comfortable desk environment. 
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer style={{ fontSize: '14px' }}>
+                <strong>Technologies Used:</strong>
+                <p>C++</p>
+                <Button
+                  className='project-btn'
+                  variant='info'
+                  href='https://www.youtube.com/watch?v=SsZZQ1udUtw&feature=youtu.be&ab_channel=IvanHuang'
+                  target='_blank'
+                >
+                  Youtube Demo
+                </Button>
+                <Button
+                  className='project-btn'
+                  variant='secondary'
+                  href='https://github.com/younghuangbao/LampLytics'
+                  target='_blank'
+                >
+                  Github Repo
+                </Button>    
+              </Card.Footer>
+            </Card>                         
+            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+              <Card.Img
+                style={{ height: '15rem' }}
+                variant='top'
                 src='/images/amazonAlexa.jpg'
               />
               <Card.Body>
@@ -207,7 +242,34 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-
+            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+              <Card.Img
+                style={{ height: '15rem' }}
+                variant='top'
+                src='/images/UCI.png'
+              />
+              <Card.Body>
+                <Card.Title>ICS Search Engine</Card.Title>
+                <Card.Text style={{ fontSize: '14px' }}>
+                A search engine built from the ground up using web pages scraped from 
+                UC Irvine's Information and Computer Science's (ICS) domain. It is 
+                capable of handling tens of thousands of documents, under harsh operational 
+                constriants and having a query response time under 300ms.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer style={{ fontSize: '14px' }}>
+                <strong>Technologies Used:</strong>
+                <p>Python</p>
+                <Button
+                  className='project-btn'
+                  variant='secondary'
+                  href='https://github.com/younghuangbao/ics-search-engine'
+                  target='_blank'
+                >
+                  Github Repo
+                </Button>    
+              </Card.Footer>
+            </Card>              
             <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
               <Card.Img
                 style={{ height: '15rem' }}
