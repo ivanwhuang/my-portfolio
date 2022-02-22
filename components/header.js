@@ -49,10 +49,10 @@ export default function Header() {
           opacity: '0.9',
         }}
       >
-        <Navbar.Brand style={{ 'font-size': '1.6rem' }} href='/'>
+        <Navbar.Brand style={{ 'font-size': '1.2rem' }} href='/'>
           Ivan Huang
         </Navbar.Brand>
-        <Nav style={{ 'flex-direction': 'row', 'font-size': '1.2rem' }}>
+        <Nav style={{ 'flex-direction': 'row'}}>
           <Link href='/projects'>
             <a>Projects</a>
           </Link>

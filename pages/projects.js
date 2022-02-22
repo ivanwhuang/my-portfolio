@@ -8,42 +8,28 @@ export default function Projects() {
       <Header />
       <div className='projects-background'></div>
       <div className='projects-content'>
-        <Container>
-          <hr class='content-spacer' />
-          <h1>Projects</h1>
-        </Container>
         <Container fluid>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              flexWrap: 'wrap',
-              justifyContent: 'center',
-            }}
-          >
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+          <div style={{marginLeft: '7rem'}}>
+            <hr class='content-spacer' />
+            <h1>Projects</h1>
+          </div>
+          <div className='project-cards'>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/spotTheTrack.png'
               />
               <Card.Body>
                 <Card.Title>SpotTheTrack</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                   <p>
-                    Inspired by the wave of online group games being released
-                    during Covid-19's quarantine season, SpotTheTrack is an
-                    online round-based multiplayer game where each round,
+                    SpotTheTrack is an online round-based multiplayer game where each round,
                     players in the same game room compete with each other to
                     guess the name of the song that is currently playing.
                   </p>
-                  <p>
-                    This app uses Spotify's web API to gather preview URLs for
-                    each song.
-                  </p>
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
                 <p>Express, React, Node.js, Socket.io</p>
                 <Button
@@ -64,28 +50,24 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/prayerKeeper.png'
               />
-              <Card.Body style={{ fontSize: '14px' }}>
+              <Card.Body>
                 <Card.Title>PrayerKeeper</Card.Title>
                 <Card.Text>
                   <p>
                     A full-stack MERN web app with token based authentication
                     that has served as an easy platform for a group of 30
                     friends to keep up with each other's prayer requests.
-                    Anything that you request prayer for will be publicly
-                    displayed on your profile, which can be directly added to
-                    the Keepers of other users!
                   </p>
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
-                <p>MongoDB, Express, React, Node.js, Redux</p>
+                <p>Express, React, Node.js, Redux, MongoDB</p>
                 <Button
                   className='project-btn'
                   variant='info'
@@ -104,22 +86,21 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/ethicScore.jpg'
               />
               <Card.Body>
                 <Card.Title>Ethic Score (Sponsored Project)</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                   An embedded Shopify application that features a composite
                   scoring system for products and brands found on Ethic
-                  Marketplace that allows users to easily see how products stack
-                  up in regard to the things they care about.
+                  Marketplace that allows users to identify how well each product
+                  aligns with their values.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
                 <p>Javascript, React, Next.js, Node.js, Express</p>
                 <Button
@@ -132,21 +113,20 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/LampLytics.png'
               />
               <Card.Body>
                 <Card.Title>LampLytics</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                 LampLytics is a prototype of a personal desk assistant system that utilizes 
                 data from multiple sensors in order to automatically turn on a lamp and fan with just the 
                 right amount of power in order to create a comfortable desk environment. 
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
                 <p>C++</p>
                 <Button
@@ -167,15 +147,14 @@ export default function Projects() {
                 </Button>    
               </Card.Footer>
             </Card>                         
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/amazonAlexa.jpg'
               />
               <Card.Body>
                 <Card.Title>NextMuniAlexaSkill</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                   <p>
                     An Amazon Alexa skill that uses NextBus API to return a
                     voice output of prediction times for any given San Francisco
@@ -184,7 +163,7 @@ export default function Projects() {
                   <p>Feel free to try it on your own Alexa!</p>
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
                 <p>Javascript, Alexa Skills Kit</p>
                 <Button
@@ -206,24 +185,23 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/smartDoor.png'
               />
               <Card.Body>
                 <Card.Title>Smart Door</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                   With the emergence of Edge Computing in IoT, SmartDoor is a
                   proof of concept project of an automated attendance tracker
-                  that also serves as a more personalized security system. This
+                  that also acts as a personalized security system. This
                   project uses Raspberry Pis to simulate use case.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
-                <p>Python</p>
+                <p>Python, TensorFlow</p>
                 <Button
                   className='project-btn'
                   variant='info'
@@ -242,22 +220,21 @@ export default function Projects() {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
+            <Card border='dark' className='project-card'>
               <Card.Img
-                style={{ height: '15rem' }}
                 variant='top'
                 src='/images/UCI.png'
               />
               <Card.Body>
                 <Card.Title>ICS Search Engine</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
+                <Card.Text>
                 A search engine built from the ground up using web pages scraped from 
                 UC Irvine's Information and Computer Science's (ICS) domain. It is 
                 capable of handling tens of thousands of documents, under harsh operational 
                 constriants and having a query response time under 300ms.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
+              <Card.Footer>
                 <strong>Technologies Used:</strong>
                 <p>Python</p>
                 <Button
@@ -268,34 +245,6 @@ export default function Projects() {
                 >
                   Github Repo
                 </Button>    
-              </Card.Footer>
-            </Card>              
-            <Card border='dark' style={{ width: '21rem', margin: '1rem' }}>
-              <Card.Img
-                style={{ height: '15rem' }}
-                variant='top'
-                src='/images/columns.png'
-              />
-              <Card.Body>
-                <Card.Title>Columns</Card.Title>
-                <Card.Text style={{ fontSize: '14px' }}>
-                  Created my own version of Columns (an old puzzle-based game on
-                  the Sega Genesis) that is played similarly to Tetris, but with
-                  3-piece “columns” and vertical, horizontal, and diagonal
-                  matching.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer style={{ fontSize: '14px' }}>
-                <strong>Technologies Used:</strong>
-                <p>Python</p>
-                <Button
-                  className='project-btn'
-                  variant='secondary'
-                  href='https://github.com/younghuangbao/columns'
-                  target='_blank'
-                >
-                  Github Repo
-                </Button>
               </Card.Footer>
             </Card>
           </div>

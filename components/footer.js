@@ -10,9 +10,9 @@ export default function Footer() {
       className='footer'
       variant='secondary'
     >
-      <Navbar.Brand style={{ color: '#fff' }}>© 2020 Ivan Huang</Navbar.Brand>
-      <Nav style={{ 'flex-direction': 'row' }}>
-        <p>huangiw@uci.edu</p>
+      <Navbar.Brand style={{ color: '#fff', 'font-size': '0.8rem'}}>© 2022 Ivan Wan Le Huang</Navbar.Brand>
+      <Nav style={{ 'flex-direction': 'row'}}>
+        <p>ivanhuang77@gmail.com</p>
         <p>(415) 816-6519</p>
       </Nav>
     </Navbar>
